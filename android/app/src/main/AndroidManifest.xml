@@ -1,8 +1,14 @@
+
 <manifest xmlns:android="http://schemas.android.com/apk/android"
     package="com.example.prechu_uzskaite">
     <application
         android:label="Preču Uzskaite"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
